@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+echo "Installing.."
+
+# shell settings
+ln -sv /c/Users/walki/.dotfiles/zsh/.zshrc ~/.zshrc
