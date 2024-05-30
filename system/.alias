@@ -3,3 +3,6 @@ alias ld="ls -ld */"   # List in long format, only directories
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias zshconfig="code ~/.zshrc"   # Open .zshrc in VS Code
+alias ohmyzsh="code ~/.oh-my-zsh" # Open .oh-my-zsh in VS Code
+alias relconfig='source ~/.zshrc;echo "zshrc sourced."' # Reload zshrc config file into terminal

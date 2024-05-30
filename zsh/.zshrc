@@ -100,7 +100,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-for DOTFILE in `find /Users/walki/.dotfiles/system`
+for DOTFILE in `find /c/Users/walki/.dotfiles/system`
 do
   [ -f $DOTFILE ] && source $DOTFILE
 done
+
+# CUSTOM PROMPT SETUP
+# Load Version Control System into the prompt
+  # autoload -Uz vcs_info
+  # precmd() { vcs_info }
+# Add git branch details to prompt
+  # zstyle ':vcs_info:git:*' formats '%b '
+# Assemble prompt
+  # setopt PROMPT_SUBST
+  # PROMPT='%F{green}%*%f %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
