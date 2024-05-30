@@ -2,4 +2,4 @@
 echo "Installing.."
 
 # shell settings
-ln -sv /c/Users/walki/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -sv ~/.dotfiles/zsh/.zshrc ~/.zshrc
