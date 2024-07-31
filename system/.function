@@ -1,4 +1,21 @@
 # Create a new directory and enter it
 function mk() {
-  mkdir -p "$@" && cd "$@"
+  mkdir -p -v "$@" && cd "$@"
+}
+
+# replace espanso command with correct executable name
+function espanso() {
+  espansod "$@"
+}
+
+# Open input folder in explorer
+function explore() {
+  explorer "$@"
+}
+
+# Make a new git repo in folder
+function mkrepo() {
+  mkdir -p -v "$@";
+  cd "$@" && echo "Moved into directory '$@'";
+  git init;
 }
