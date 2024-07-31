@@ -19,3 +19,10 @@ function mkrepo() {
   cd "$@" && echo "Moved into directory '$@'";
   git init;
 }
+
+# Open remote repo in browser
+function gbrowse {
+    gbrowsevar=$(git config --get remote.origin.url)
+    printf "${gbrowsevar}"
+    start $gbrowsevar
+}
