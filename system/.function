@@ -22,7 +22,7 @@ function mkrepo() {
 }
 
 # Open remote repo in browser
-function gbrowse {
+function gbrowse() {
     gbrowsevar=$(git config --get remote.origin.url)
     printf "${gbrowsevar}"
     start $gbrowsevar
