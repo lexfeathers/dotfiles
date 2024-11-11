@@ -9,3 +9,5 @@ alias ohmyzsh="code ~/.oh-my-zsh"                                 # Open .oh-my-
 alias rlconfig='source ~/.zshrc;echo "zshrc sourced."'            # Reload zshrc config file into terminal
 alias explorer="explorer.exe ."                                   # Open current dir in explorer 
 alias espansoedit='code ~/AppData/Roaming/espanso/match/base.yml' # Open espanso matches file in vs code
+alias aliasconfig='code ~/.dotfiles/system/.alias'                  # Open this file in vs code
+alias functionconfig='code ~/.dotfiles/system/.function'            # Open functions file in vs code

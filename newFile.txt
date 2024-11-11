@@ -1,0 +1,6 @@
+# this is a test function
+function testmk() {
+	mkdir -p -v ;
+	cd  && echo 'moved into ""';
+	echo "Now in dir '';
+}

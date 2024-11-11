@@ -1,3 +1,4 @@
+#!usr/bin/zsh
 # Create a new directory and enter it
 function mk() {
   mkdir -p -v "$@" && cd "$@"
@@ -25,4 +26,9 @@ function gbrowse {
     gbrowsevar=$(git config --get remote.origin.url)
     printf "${gbrowsevar}"
     start $gbrowsevar
+}
+
+# Print date in ISO 8601
+function isodate() {
+  # date +%Y-%m-%dT%H:%M%z
 }
