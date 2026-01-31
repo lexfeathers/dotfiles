@@ -1,34 +1,29 @@
 #!usr/bin/zsh
 # Create a new directory and enter it
-function mk() {
-  mkdir -p -v "$@" && cd "$@"
+mk() {
+  mkdir -p -v "$@" && cd "$@";
 }
-
 # replace espanso command with correct executable name
-function espanso() {
-  espansod "$@"
+espanso() {
+  espansod "$@";
 }
-
 # Open input folder in explorer
-function explore() {
-  explorer "$@"
+explore() {
+  explorer "$@";
 }
-
 # Make a new git repo in folder
-function mkrepo() {
+mkrepo() {
   mkdir -p -v "$@";
   cd "$@" && echo "Moved into directory '$@'";
   git init;
 }
-
 # Open remote repo in browser
-function gbrowse() {
-    gbrowsevar=$(git config --get remote.origin.url)
-    printf "${gbrowsevar}"
-    start $gbrowsevar
+gbrowse() {
+    gbrowsevar = `$(git config get remote.origin.url)`;
+    printf "${gbrowsevar}";
+    start "${gbrowsevar}";
 }
-
 # Print date in ISO 8601
-function isodate() {
-  # date +%Y-%m-%dT%H:%M%z
+isodate() {
+  date +%Y-%m-%dT%H:%M%z;
 }
