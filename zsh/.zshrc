@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-for DOTFILE in `find /c/Users/walki/.dotfiles/system`
+for DOTFILE in `find /c/Users/Lex/.dotfiles/system`
 do
   [ -f $DOTFILE ] && source $DOTFILE
 done
