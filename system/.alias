@@ -4,9 +4,13 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~~='cd ~'
+
+# Set VScodium to override the "code" command
+alias code="codium"
+
 alias zshconfig="code ~/.zshrc"                                   # Open .zshrc in VS Code
 alias ohmyzsh="code ~/.oh-my-zsh"                                 # Open .oh-my-zsh in VS Code
-alias rlconfig='source ~/.zshrc;echo "zshrc sourced."'            # Reload zshrc config file into terminal
+alias rlconfig='source ~/.zshrc;echo ".zshrc sourced."'            # Reload zshrc config file into terminal
 alias explorer="explorer.exe ."                                   # Open current dir in explorer 
 alias espansoedit='code ~/AppData/Roaming/espanso/match/base.yml' # Open espanso matches file in vs code
 alias aliasconfig='code ~/.dotfiles/system/.alias'                  # Open this file in vs code
