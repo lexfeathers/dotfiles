@@ -1,0 +1,29 @@
+version = 1
+
+[common]
+synced_files = []
+
+[[profiles]]
+name = "fastfetch"
+synced_files = []
+packages = []
+
+[[profiles]]
+name = "system"
+synced_files = []
+packages = []
+
+[[profiles]]
+name = "windows terminal"
+synced_files = []
+packages = []
+
+[[profiles]]
+name = "zsh"
+synced_files = []
+packages = []
+
+[[profiles]]
+name = "Windows"
+synced_files = []
+packages = []
