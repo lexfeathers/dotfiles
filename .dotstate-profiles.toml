@@ -4,7 +4,7 @@ version = 1
 synced_files = []
 
 [[profiles]]
-name = "fastfetch"
+name = "windows terminal"
 synced_files = []
 packages = []
 
@@ -14,7 +14,7 @@ synced_files = []
 packages = []
 
 [[profiles]]
-name = "windows terminal"
+name = "kitty"
 synced_files = []
 packages = []
 
@@ -24,6 +24,6 @@ synced_files = []
 packages = []
 
 [[profiles]]
-name = "Windows"
+name = "fastfetch"
 synced_files = []
 packages = []
